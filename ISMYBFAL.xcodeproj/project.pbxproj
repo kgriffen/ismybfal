@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651086DA1875F11B0054937F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086D51875F11B0054937F /* FMDatabase.m */; };
+		651086DB1875F11B0054937F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086D51875F11B0054937F /* FMDatabase.m */; };
+		651086DC1875F11B0054937F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086D71875F11B0054937F /* FMDatabaseAdditions.m */; };
+		651086DD1875F11B0054937F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086D71875F11B0054937F /* FMDatabaseAdditions.m */; };
+		651086DE1875F11B0054937F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086D91875F11B0054937F /* FMResultSet.m */; };
+		651086DF1875F11B0054937F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086D91875F11B0054937F /* FMResultSet.m */; };
+		651086E21875F13E0054937F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086E11875F13E0054937F /* FMDatabasePool.m */; };
+		651086E31875F13E0054937F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086E11875F13E0054937F /* FMDatabasePool.m */; };
+		651086E51875F1C30054937F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 651086E41875F1C30054937F /* libsqlite3.dylib */; };
+		651086E81875F2120054937F /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086E71875F2120054937F /* mainViewController.m */; };
+		651086E91875F2120054937F /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651086E71875F2120054937F /* mainViewController.m */; };
 		65EF9B7718739611001FAEF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EF9B7618739611001FAEF5 /* Foundation.framework */; };
 		65EF9B7918739611001FAEF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EF9B7818739611001FAEF5 /* CoreGraphics.framework */; };
 		65EF9B7B18739611001FAEF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EF9B7A18739611001FAEF5 /* UIKit.framework */; };
@@ -34,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		651086D41875F1090054937F /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		651086D51875F11B0054937F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		651086D61875F11B0054937F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		651086D71875F11B0054937F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		651086D81875F11B0054937F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		651086D91875F11B0054937F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		651086E01875F13E0054937F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		651086E11875F13E0054937F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		651086E41875F1C30054937F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		651086E61875F2120054937F /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		651086E71875F2120054937F /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
 		65EF9B7318739611001FAEF5 /* ISMYBFAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISMYBFAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EF9B7618739611001FAEF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65EF9B7818739611001FAEF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651086E51875F1C30054937F /* libsqlite3.dylib in Frameworks */,
 				65EF9B7918739611001FAEF5 /* CoreGraphics.framework in Frameworks */,
 				65EF9B7B18739611001FAEF5 /* UIKit.framework in Frameworks */,
 				65EF9B7718739611001FAEF5 /* Foundation.framework in Frameworks */,
@@ -101,6 +124,7 @@
 		65EF9B7518739611001FAEF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				651086E41875F1C30054937F /* libsqlite3.dylib */,
 				65EF9B7618739611001FAEF5 /* Foundation.framework */,
 				65EF9B7818739611001FAEF5 /* CoreGraphics.framework */,
 				65EF9B7A18739611001FAEF5 /* UIKit.framework */,
@@ -115,8 +139,18 @@
 				65EF9B8518739612001FAEF5 /* ismybfalAppDelegate.h */,
 				65EF9B8618739612001FAEF5 /* ismybfalAppDelegate.m */,
 				65EF9B8818739612001FAEF5 /* Main.storyboard */,
+				651086E61875F2120054937F /* mainViewController.h */,
+				651086E71875F2120054937F /* mainViewController.m */,
 				65EF9B8B18739612001FAEF5 /* ismybfalViewController.h */,
 				65EF9B8C18739612001FAEF5 /* ismybfalViewController.m */,
+				651086D41875F1090054937F /* FMDatabase.h */,
+				651086D51875F11B0054937F /* FMDatabase.m */,
+				651086D61875F11B0054937F /* FMDatabaseAdditions.h */,
+				651086D71875F11B0054937F /* FMDatabaseAdditions.m */,
+				651086D81875F11B0054937F /* FMResultSet.h */,
+				651086D91875F11B0054937F /* FMResultSet.m */,
+				651086E01875F13E0054937F /* FMDatabasePool.h */,
+				651086E11875F13E0054937F /* FMDatabasePool.m */,
 				65EF9B8E18739612001FAEF5 /* Images.xcassets */,
 				65EF9B7D18739611001FAEF5 /* Supporting Files */,
 			);
@@ -200,6 +234,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Karn Griffen";
 				TargetAttributes = {
+					65EF9B7218739611001FAEF5 = {
+						DevelopmentTeam = T5P6DGJ4CW;
+					};
 					65EF9B9318739612001FAEF5 = {
 						TestTargetID = 65EF9B7218739611001FAEF5;
 					};
@@ -250,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651086DE1875F11B0054937F /* FMResultSet.m in Sources */,
 				65EF9B8D18739612001FAEF5 /* ismybfalViewController.m in Sources */,
 				65EF9B8318739611001FAEF5 /* main.m in Sources */,
+				651086E81875F2120054937F /* mainViewController.m in Sources */,
 				65EF9B8718739612001FAEF5 /* ismybfalAppDelegate.m in Sources */,
+				651086E21875F13E0054937F /* FMDatabasePool.m in Sources */,
+				651086DA1875F11B0054937F /* FMDatabase.m in Sources */,
+				651086DC1875F11B0054937F /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65EF9BA218739612001FAEF5 /* ISMYBFALTests.m in Sources */,
+				651086DB1875F11B0054937F /* FMDatabase.m in Sources */,
+				651086E31875F13E0054937F /* FMDatabasePool.m in Sources */,
+				651086E91875F2120054937F /* mainViewController.m in Sources */,
+				651086DF1875F11B0054937F /* FMResultSet.m in Sources */,
+				651086DD1875F11B0054937F /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ISMYBFAL/ISMYBFAL-Prefix.pch";
 				INFOPLIST_FILE = "ISMYBFAL/ISMYBFAL-Info.plist";
@@ -392,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ISMYBFAL/ISMYBFAL-Prefix.pch";
 				INFOPLIST_FILE = "ISMYBFAL/ISMYBFAL-Info.plist";
@@ -461,6 +510,7 @@
 				65EF9BA718739612001FAEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65EF9BA818739612001FAEF5 /* Build configuration list for PBXNativeTarget "ISMYBFALTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +519,7 @@
 				65EF9BAA18739612001FAEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
